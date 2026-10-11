@@ -1,0 +1,10 @@
+{
+  "name": "issue-draft-lifeboat",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local-first browser extension protecting GitHub new-issue drafts.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/core.js && node --check src/content.js"
+  }
+}

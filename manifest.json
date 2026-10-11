@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Issue Draft Lifeboat",
+  "version": "0.2.0",
+  "description": "Automatically keeps a local copy of GitHub new-issue drafts and lets you restore them without overwriting current text.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://github.com/*/*/issues/new*"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/issues/new*"],
+      "js": ["src/core.js", "src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
