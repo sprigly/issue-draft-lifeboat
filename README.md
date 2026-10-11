@@ -1,5 +1,7 @@
 # Issue Draft Lifeboat
 
+**Language:** [English](README.md) · [简体中文](README.zh-CN.md)
+
 A tiny local-first Chrome/Edge extension that keeps a recoverable copy of text entered on GitHub's **new issue** page.
 
 ## What it does
@@ -9,7 +11,7 @@ A tiny local-first Chrome/Edge extension that keeps a recoverable copy of text e
 - Offers a **Restore draft** button when the matching form is empty.
 - Never fills over text already in the form.
 - Lets you remove a saved draft manually. Emptying both fields also removes the saved copy.
-- Expires saved drafts after 14 days and caps the stored title/body at 100,000 characters.
+- Expires saved drafts after 14 days and caps the combined title/body at 100,000 characters.
 
 ## Privacy and permissions
 
